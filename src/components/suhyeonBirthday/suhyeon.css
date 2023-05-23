@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to bottom right, hotpink, #fcabee)
+}
+.suhyeon-head{
+    text-align: center;
+    padding-top: 20px;
+}
+#suhyeon-head-title{
+    color: red;
+    font-family: 'Mynerve', cursive;
+    font-size: 30px;
+}
+#suhyeon-body-sources{
+    width: 43%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
