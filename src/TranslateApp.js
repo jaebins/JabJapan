@@ -37,8 +37,8 @@ function TranslateApp() {
     "와가자다바파기지비피구주주부푸" +
     "게제데베페워고조도보포";
 
-  // const server_URL = "";
-  const server_URL = "http://localhost:8001"
+  const server_URL = "";
+  // const server_URL = "http://localhost:8001"
   
   const [transMode, setTransMode] = useState({ // 현재 번역 모드 (targetLan = ja : 일본어 발음을 한국어로, ko : 한국어를 일본어 발음으로)
     targetLan: "ja",
