@@ -2,40 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-body{
-  margin: 0px;
-  padding: 0px;
-}
-a{
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-  color: white
-}
-
-/* 모바일 or 작은 웹 화면 */
-@media only screen and (max-width:500px){
-  /* 모드 버튼 텍스트 축소 */
-  #head-title{
-    padding-left: 20px;
-    font-size: 35px;
-  }
-  #category-title{
-    font-size: 20px;
-  }
-  /* 모드 버튼 눌렀을 때 스크롤 펼치는 이벤트 */
-  #category-title:hover~#category-desc{
-    font-family: 'Mynerve', cursive;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    font-size: 25px;
-  }
-  #category-desc:hover{
-    font-size: 0px;
-    text-align: center;
-  }
-}
-
 @media only screen and (max-width: 680px){ 
   /* 버튼 크기 축소 */
   .practice-body-main-user-option-answel{
@@ -48,12 +14,6 @@ a{
 }
 
 @media (hover: hover) and (pointer: fine){
-  .neck-category:hover > #neck-category-desc{
-    font-family: 'Mynerve', cursive;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    font-size: 25px;
-  }
   .practice-body-main-select-answel:hover {
     box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
@@ -67,41 +27,6 @@ a{
   }
 }
 
-#head-title{
-  cursor: pointer;
-  background-color: #2B3467;
-  padding: 20px;
-  padding-left: 30px;
-  color:white;
-  font-family: 'Mynerve', cursive;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.neck{
-  display: flex;
-  border: 2px solid gray;
-  background-color: #BAD7E9;
-}
-.neck-category{
-  cursor: pointer;
-  margin-top: 10px;
-  margin-left: 30px;
-  padding-bottom: 10px;
-}
-#neck-category-title{
-  font-family: 'Mynerve', cursive;
-  font-size: 30px;
-  font-weight: bold;
-}
-#neck-category-desc{
-  font-size: 0px;
-  text-align: center;
-}
-
-.practice-body{
-  
-}
 .practice-body-main{
   position: fixed;
   top: 30%;

@@ -79,7 +79,7 @@ export default function SaveWordMap(){
                     <div id="saveWordMap-foot-movePageControls-control" onClick={() => changePage(-1)}>이전</div>
                     <div id="saveWordMap-foot-movePageControls-control" onClick={() => changePage(1)}>다음</div>
                 </div>
-                <div id="saveWordMap-foot-pageText">{page + 1}/{rsCounter > pagePerWords ? Math.ceil(rsCounter / pagePerWords) : 0}</div>
+                <div id="saveWordMap-foot-pageText">{page + 1}/{rsCounter > pagePerWords ? Math.ceil(rsCounter / pagePerWords) : 1}</div>
                 <button id="saveWordMap-foot-removeAllRecord" onClick={() => removeAllRecord()}>기록 지우기</button>
             </div>
         </div>
